@@ -3,16 +3,17 @@
 <title>PalChat Communicator privacy policy</title>
 <style>body{font:17px/1.55 -apple-system,system-ui,Segoe UI,sans-serif;max-width:720px;margin:0 auto;padding:24px 18px;color:#1f2d33}h1{font-size:28px}h2{margin-top:32px;font-size:21px;color:#1d4e61}blockquote{margin:16px 0;padding:10px 16px;background:#eef6f9;border-left:4px solid #2f7f9c}code{background:#f0f3f4;padding:1px 5px;border-radius:4px}a{color:#1d5f7a}</style></head><body>
 <h1>PalChat Communicator Privacy Policy</h1>
-<p><strong>Effective date:</strong> October 3, 2026</p>
+<p><strong>Effective date:</strong> October 7, 2026</p>
 <p><strong>Contact:</strong> <a href="mailto:mypalcommunications@gmail.com">mypalcommunications@gmail.com</a></p>
-<p>PalChat Communicator is a communication app. A person taps pictures and words to build a sentence, and the device speaks it aloud. This policy explains, in plain language, what the app does with information. The short version: <strong>PalChat keeps everything on your device. It has no accounts, and we do not collect your information.</strong> The only optional exceptions, Smart ideas and the Ultra-realistic voice, are off unless a caregiver turns them on and are described in full below.</p>
+<p>PalChat Communicator is a communication app. A person taps pictures and words to build a sentence, and the device speaks it aloud. This policy explains, in plain language, what the app does with information. The short version: <strong>PalChat keeps your boards, words, photos and settings on your device. It has no accounts, and we do not collect your information.</strong> Two things use the internet, and both ask a caregiver first: the natural voices that speak the words, and the optional Smart ideas. They are described in full below.</p>
 <h2>What the app stores, and where</h2>
 <p>The app stores the following <strong>only on your device</strong>:</p>
 <ul>
 <li>the communication boards and the words and pictures on them;</li>
 <li>words, folders and photos a caregiver adds (a photo is only used if a caregiver picks one from the photo library or takes one with the camera);</li>
 <li>profile names or nicknames a caregiver types, and the answers to the optional set-up questions (for example, where the app will be used);</li>
-<li>settings such as voice, volume, and which words are shown.</li>
+<li>settings such as voice, volume, and which words are shown, and the caregiver&#x27;s choice about the natural voices;</li>
+<li>audio of the board&#x27;s words and of spoken phrases in the chosen voice, so they play instantly and work without internet.</li>
 </ul>
 <p>We do not receive any of this. It is not uploaded, synced, backed up by us, or shared with us or anyone else. If the device itself is backed up by the device maker&#x27;s own backup service, the app&#x27;s data may be included in that backup under that service&#x27;s terms.</p>
 <h2>What the app does not do</h2>
@@ -24,8 +25,17 @@
 <li>The app does not use the microphone. It does not read the contact list, location or other apps&#x27; data.</li>
 </ul>
 <h2>Speech</h2>
-<p>Speech is produced by the voices built into your device by default. The words are not sent anywhere for speaking.</p>
-<p><strong>Ultra-realistic voice (optional, off by default).</strong> In Voice settings a caregiver can choose an Ultra-realistic voice. While it is chosen, the words of each phrase being spoken (for example: I want more) are sent over the internet to PalChat&#x27;s voice service, which asks a text-to-speech provider (ElevenLabs) for the audio and returns it. Nothing else is sent: no name, no photos, no profile information, no device identifiers. The service does not log or store the words. The provider receives them only to produce the audio. The audio is kept on the device so a phrase heard before plays again without internet, and &quot;Erase all data&quot; removes it. If the service is slow or unreachable, the on-device voice speaks the same words. Do not use Ultra-realistic for buttons whose words are a child&#x27;s full name, address or other private details.</p>
+<p>PalChat speaks with natural-sounding voices (Sophie, Luke, Alex, Jessica or Brian, chosen per profile in Voice settings). These voices are made online. The first time PalChat is used on a device, it asks a caregiver whether to turn them on and shows exactly what is sent. Until a caregiver agrees, or if they choose &quot;Not now&quot;, PalChat speaks with the voice built into the device and <strong>no words are sent anywhere for speaking</strong>. A caregiver can change this at any time in Voice settings, and &quot;Erase all data&quot; resets it.</p>
+<p><strong>What the natural voices send.</strong> When they are on, PalChat sends only words to be spoken, over an encrypted connection (HTTPS), to PalChat&#x27;s voice service. The service asks a text-to-speech provider (ElevenLabs) to turn them into audio and returns it. Those words are the words on the board and a few common phrases (fetched in the background, so buttons speak instantly and also work without internet), and any sentence or idea that is spoken (for example: I want more). Nothing else is sent: no name, no photos, no profile information, no device identifiers, no account. This data is <strong>not linked to anyone</strong>, is <strong>not used for tracking or advertising</strong>, and is used only to produce the speech.</p>
+<p><strong>What is kept, and where.</strong></p>
+<ul>
+<li><strong>On the device.</strong> The audio is saved on the device so words play instantly and without internet. &quot;Erase all data&quot; removes it.</li>
+<li><strong>On the voice service.</strong> To make repeats faster, the service keeps the audio for short words and phrases (up to 40 characters) in memory for up to a day. It is stored under a scrambled code (a hash), so the words are not kept as text. It is never written to disk, is not linked to anyone, and is lost whenever the service restarts. The service does not log the words.</li>
+<li><strong>With the provider.</strong> The provider receives the words only to produce the audio and may keep them briefly under its own policy.</li>
+<li><strong>Network address.</strong> As with any internet request, the service can see the device&#x27;s network address while it answers. A short-lived counter by address is kept in memory for about a minute to limit abuse and is never written to disk.</li>
+</ul>
+<p><strong>Never silent.</strong> If a word&#x27;s audio is not on the device and cannot be fetched quickly (for example, with no internet), the device&#x27;s built-in voice speaks the same words.</p>
+<p>Do not make buttons whose words are a child&#x27;s full name, address or other private details. The board&#x27;s words are sent so they can be spoken.</p>
 <h2>Photos and camera</h2>
 <p>The photo library or camera is opened only when a caregiver chooses to add a picture to a button, and the system asks for permission first. The chosen picture is stored on the device only. You can turn the permission off at any time in the device&#x27;s Settings.</p>
 <h2>Printing and sharing</h2>
@@ -46,9 +56,9 @@
 <h2>Deleting your data</h2>
 <p>Because everything is on the device, you control it. In Settings you can remove profiles, words and photos you added, or erase everything the app stores on the device. Deleting the app also removes its data from the device. There is nothing on our side to delete, because we do not hold your data.</p>
 <h2>Security</h2>
-<p>Data stays in the app&#x27;s private storage on the device and is protected by the device&#x27;s own security (passcode and system encryption). Smart ideas, if turned on, uses an encrypted connection (HTTPS). Ultra-realistic voice, if turned on, uses it too. The keys used to reach the AI and voice providers are kept only on the server and are never part of the app.</p>
+<p>Data stays in the app&#x27;s private storage on the device and is protected by the device&#x27;s own security (passcode and system encryption). The natural voices and Smart ideas use an encrypted connection (HTTPS). The keys used to reach the AI and voice providers are kept only on the server and are never part of the app.</p>
 <h2>Changes to this policy</h2>
-<p>If this policy changes, we will update the date at the top. If the way Smart ideas works changes, the app will ask a caregiver to agree again before it is used.</p>
+<p>If this policy changes, we will update the date at the top. If the way the natural voices or Smart ideas work changes, the app will ask a caregiver to agree again before they are used.</p>
 <h2>Contact</h2>
 <p>Questions or requests: <strong><a href="mailto:mypalcommunications@gmail.com">mypalcommunications@gmail.com</a></strong></p>
 </body></html>
