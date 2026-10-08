@@ -3,15 +3,15 @@
 <title>PalChat Communicator privacy policy</title>
 <style>body{font:17px/1.55 -apple-system,system-ui,Segoe UI,sans-serif;max-width:720px;margin:0 auto;padding:24px 18px;color:#1f2d33}h1{font-size:28px}h2{margin-top:32px;font-size:21px;color:#1d4e61}blockquote{margin:16px 0;padding:10px 16px;background:#eef6f9;border-left:4px solid #2f7f9c}code{background:#f0f3f4;padding:1px 5px;border-radius:4px}a{color:#1d5f7a}</style></head><body>
 <h1>PalChat Communicator Privacy Policy</h1>
-<p><strong>Effective date:</strong> October 7, 2026</p>
+<p><strong>Effective date:</strong> October 8, 2026</p>
 <p><strong>Contact:</strong> <a href="mailto:mypalcommunications@gmail.com">mypalcommunications@gmail.com</a></p>
-<p>PalChat Communicator is a communication app. A person taps pictures and words to build a sentence, and the device speaks it aloud. This policy explains, in plain language, what the app does with information. The short version: <strong>PalChat keeps your boards, words, photos and settings on your device. It has no accounts, and we do not collect your information.</strong> Two things use the internet, and both ask a caregiver first: the natural voices that speak the words, and the optional Smart ideas. They are described in full below.</p>
+<p>PalChat Communicator is a communication app. A person taps pictures and words to build a sentence, and the device speaks it aloud. This policy explains, in plain language, what the app does with information. The short version: <strong>PalChat keeps your boards, words, photos and settings on your device. It has no accounts, and we do not collect your information.</strong> Only one thing uses the internet, and it asks a caregiver first: the natural voices that speak the words. It is described in full below.</p>
 <h2>What the app stores, and where</h2>
 <p>The app stores the following <strong>only on your device</strong>:</p>
 <ul>
 <li>the communication boards and the words and pictures on them;</li>
 <li>words, folders and photos a caregiver adds (a photo is only used if a caregiver picks one from the photo library or takes one with the camera);</li>
-<li>profile names or nicknames a caregiver types, and the answers to the optional set-up questions (for example, where the app will be used);</li>
+<li>profile names or nicknames a caregiver types, and the answers to the optional set-up questions (where the app will be used, the person&#x27;s communication stage, access needs such as bigger buttons or a calmer layout, and any notes a caregiver types). These only choose which words and layout are shown, and never leave the device;</li>
 <li>settings such as voice, volume, and which words are shown, and the caregiver&#x27;s choice about the natural voices;</li>
 <li>audio of the board&#x27;s words and of spoken phrases in the chosen voice, so they play instantly and work without internet.</li>
 </ul>
@@ -30,7 +30,7 @@
 <p><strong>What is kept, and where.</strong></p>
 <ul>
 <li><strong>On the device.</strong> The audio is saved on the device so words play instantly and without internet. &quot;Erase all data&quot; removes it.</li>
-<li><strong>On the voice service.</strong> To make repeats faster, the service keeps the audio for short words and phrases (up to 40 characters) in memory for up to a day. It is stored under a scrambled code (a hash), so the words are not kept as text. It is never written to disk, is not linked to anyone, and is lost whenever the service restarts. The service does not log the words.</li>
+<li><strong>On the voice service.</strong> The voice service is a small program run by us on a third-party hosting company, which handles the request on our behalf. To make repeats faster, the service keeps the audio for short words and phrases (up to 40 characters) in memory for up to a day. It is stored under a scrambled code (a hash), so the words are not kept as text. It is never written to disk, is not linked to anyone, and is lost whenever the service restarts. The service does not log the words.</li>
 <li><strong>With the provider.</strong> The provider receives the words only to produce the audio and may keep them briefly under its own policy.</li>
 <li><strong>Network address.</strong> As with any internet request, the service can see the device&#x27;s network address while it answers. A short-lived counter by address is kept in memory for about a minute to limit abuse and is never written to disk.</li>
 </ul>
@@ -41,24 +41,15 @@
 <h2>Printing and sharing</h2>
 <p>&quot;Print home board&quot; makes a printable page of the board on the device and hands it to the system print or share sheet. What happens next (printing, saving, sending) is up to the person using the sheet. The app does not send it anywhere.</p>
 <h2>Sentence ideas</h2>
-<p>Sentence ideas offers short, well-formed suggestions based on the words in the sentence bar (for example, &quot;I want eat&quot; becomes &quot;I want to eat.&quot;). A caregiver chooses one of three settings, per profile, in Settings:</p>
-<ul>
-<li><strong>On this device</strong> (the default). Ideas are made on the device by a built-in rule-based tool. Nothing leaves the device and it works without internet.</li>
-<li><strong>Smart ideas (uses internet).</strong> This adds a Smart ideas button. It is <strong>off unless a caregiver turns it on</strong>, and turning it on asks for the caregiver&#x27;s agreement to the text below. The date and version of that agreement are stored on the device. Turning the setting off removes that record.</li>
-<li><strong>Off.</strong> No ideas are shown.</li>
-</ul>
-<h3>What Smart ideas sends</h3>
-<p>When you tap Smart ideas, PalChat sends only the words in the sentence bar (for example: I, want, eat) over the internet to PalChat&#x27;s sentence service, which asks an AI language model to turn them into a few short sentence suggestions. Nothing else is sent: no name, no photos, no profile information, no device identifiers. The service does not save the words or the suggestions. The AI provider it uses receives them only to write the suggestions, does not use them to train its models under its API terms, and may keep them briefly under its own retention policy. As with any internet request, the service can see the device&#x27;s network address while it answers; it is not stored. Smart ideas never run unless you tap the button, and PalChat works fully without them.</p>
-<p>In more detail: the sentence service is a small program hosted on Render. It checks the request, passes the words to an AI model provider (Anthropic) with an instruction to write short sentences from those words only, and returns the result. The service has no database and writes no files. It records only that a request happened, its status and how long it took, not the words. A short-lived counter by network address is kept in memory for about a minute to limit abuse and is never written to disk. The hosting company and the AI provider have their own records and policies; they receive the words only to answer the request. If the service cannot be reached, the app shows its on-device ideas instead and says that online ideas are not available.</p>
-<p>Do not type a child&#x27;s full name, address or other private details into a word button that you plan to use with Smart ideas. Only the words in the sentence bar are sent when you tap the button.</p>
+<p>Sentence ideas offers short, well-formed suggestions based on the words in the sentence bar (for example, &quot;I want eat&quot; becomes &quot;I want to eat.&quot;). They are made on the device by a built-in rule-based tool. <strong>Nothing leaves the device and ideas work without internet.</strong> A caregiver can switch ideas off, per profile, in Settings. The app has no online sentence or AI-suggestion feature.</p>
 <h2>Children</h2>
 <p>PalChat is made to be used by children together with a parent, caregiver, teacher or therapist. The app does not ask a child for personal information, has no accounts, and does not collect information from children. Settings, editing and printing are in a caregiver area that needs a press-and-hold to open, so they are not opened by accident.</p>
 <h2>Deleting your data</h2>
 <p>Because everything is on the device, you control it. In Settings you can remove profiles, words and photos you added, or erase everything the app stores on the device. Deleting the app also removes its data from the device. There is nothing on our side to delete, because we do not hold your data.</p>
 <h2>Security</h2>
-<p>Data stays in the app&#x27;s private storage on the device and is protected by the device&#x27;s own security (passcode and system encryption). The natural voices and Smart ideas use an encrypted connection (HTTPS). The keys used to reach the AI and voice providers are kept only on the server and are never part of the app.</p>
+<p>Data stays in the app&#x27;s private storage on the device and is protected by the device&#x27;s own security (passcode and system encryption). The natural voices use an encrypted connection (HTTPS). The key used to reach the voice provider is kept only on the server and is never part of the app.</p>
 <h2>Changes to this policy</h2>
-<p>If this policy changes, we will update the date at the top. If the way the natural voices or Smart ideas work changes, the app will ask a caregiver to agree again before they are used.</p>
+<p>If this policy changes, we will update the date at the top. If the way the natural voices work changes, the app will ask a caregiver to agree again before they are used.</p>
 <h2>Contact</h2>
 <p>Questions or requests: <strong><a href="mailto:mypalcommunications@gmail.com">mypalcommunications@gmail.com</a></strong></p>
 </body></html>
